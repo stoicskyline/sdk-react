@@ -1,6 +1,5 @@
 jest.config.js
 yarn-error.log
-README.md
 tsconfig.json
 node_modules
 .idea

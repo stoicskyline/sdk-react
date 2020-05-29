@@ -1,4 +1,4 @@
-# SDK in NodeJS
+# ReactJS SDK
 
 Useful for any backend or frontend JavaScript or TypeScript project.
 
