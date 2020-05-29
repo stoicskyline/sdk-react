@@ -1,0 +1,26 @@
+{
+  "name": "@jorgechen/sdk-js",
+  "version": "0.1.0-beta.7",
+  "description": "JavaScript helpers with TypeScript",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "prebuild": "yarn test",
+    "build": "rimraf lib/ && tsc",
+    "prepub": "yarn build",
+    "pub": "yarn publish --access public",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "@types/react": "^16.9.25",
+    "jest": "^26.0.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.0.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "react": "^16.13.1"
+  }
+}
