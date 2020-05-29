@@ -5,7 +5,7 @@ Useful for any backend or frontend JavaScript or TypeScript project.
 ## Installation
 
 ```shell script
-yarn add @jorgechen/sdk-js
+yarn add @jorgechen/sdk-react
 ```
 
 ## Maintain
@@ -26,7 +26,7 @@ yarn global add yalc
 Then we can publish this package locally: 
 
 ```shell script
-cd sdk-js/
+cd sdk-react
 yalc publish
 ```
 
@@ -44,5 +44,5 @@ NPM package commands:
 yarn pub
 
 # Remove a specific package version
-npm unpublish @jorgechen/sdk-js@0.1.0
+npm unpublish @jorgechen/sdk-react@0.1.0
 ```
